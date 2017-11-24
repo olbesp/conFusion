@@ -1,0 +1,23 @@
+.jumbotron {
+  color: #f2f2f2;
+  background-color: #aa23aa;
+  border-radius: 0;
+}
+
+.row-content {
+  padding: 5rem 0;
+  border-bottom: 1px ridge;
+}
+
+.footer {
+  background-color: #aaa;
+  padding: 1.5rem 0;
+}
+
+.address {
+  font-size: .8rem;
+}
+
+.social-media {
+  text-align: center;
+}
