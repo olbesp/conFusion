@@ -1,8 +1,13 @@
+.navbar-dark {
+  background-color: #1d1c18;
+}
+
 .jumbotron {
   color: #f2f2f2;
   background-color: #e9921e;
   border-radius: 0;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
+  padding-top: 6rem;
 }
 
 .row-content {
