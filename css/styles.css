@@ -54,6 +54,16 @@
   text-align: center;
 }
 
+.email-icon {
+  color: #fefefe;
+  border-radius: 4px;
+  background-color: #a9329e;
+  transition: background-color .2s;
+}
+
+.email-icon:hover {
+  background-color: #5e32af;
+}
 
 .u-margin-v-small {
   margin-top: 2rem;
