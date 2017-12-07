@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container">
       <a href="#" class="navbar-brand"><img src="/img/logo.png" alt="Logo" class="navbar-brand-logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,23 +38,39 @@
   <div class="modal fade" id="loginModal" role="dialog">
     <div class="modal-dialog" role="content">
       <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-header bg-info text-white">
           <h4 class="modal-title">Login</h4>
           <button type="button" class="close" data-dismiss="modal" name="button">
             &times;
           </button>
         </div>
         <div class="modal-body">
-
+          <form action="" class="form-inline justify-content-between">
+            <div class="form-group">
+              <label for="loginEmail" class="sr-only"></label>
+              <input type="email" id="loginEmail" class="form-control" name="loginEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="loginPass" class="sr-only"></label>
+              <input type="password" id="loginPass" class="form-control" name="loginPass" placeholder="Password">
+            </div>
+            <div class="form-check mr-auto mt-2">
+              <label class="form-check-label">
+                <input type="checkbox" id="loginCheck" class="form-check-input" name="loginCheck">
+                Remember me
+              </label>
+            </div>
+          </form>
         </div>
-        <div class="modal-footer">
-
+        <div class="modal-footer bg-info text-white">
+          <button class="btn btn-default btn-sm" type="button" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary btn-sm" type="submit">Sign in</button>
         </div>
       </div>
     </div>
   </div>
 
-  <header class="jumbotron">
+  <header class="jumbotron bg-info">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6">
@@ -200,7 +216,7 @@
 
 
 
-  <footer class="footer">
+  <footer class="footer bg-dark">
     <div class="container">
       <div class="row">
         <div class="col-5 offset-1 col-sm-2">
