@@ -10,6 +10,17 @@
   padding-top: 6rem;
 }
 
+.text-orange-dark,
+.text-orange-dark:link,
+.text-orange-dark:visited {
+  color: #e9921e;
+  transition: color .2s;
+}
+
+a.text-orange-dark:hover {
+  color: #832b05;
+}
+
 .navbar-brand-logo {
   width: 41px;
 }
