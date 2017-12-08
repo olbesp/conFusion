@@ -16,6 +16,13 @@
   opacity: .5;
 }
 
+.play-pause-btns {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
 .text-orange-dark,
 .text-orange-dark:link,
 .text-orange-dark:visited {
