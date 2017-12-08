@@ -1,53 +1,41 @@
 .jumbotron {
   color: #f2f2f2;
   border-radius: 0;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
-  padding-top: 6rem;
-}
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  padding-top: 6rem; }
 
 .carousel-item {
   height: 300px;
   background-color: black;
-  font-size: 1.3rem;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, .4);
-}
-
-.carousel-item img {
-  opacity: .5;
-}
+  font-size: 1.3rem; }
+  .carousel-item img {
+    opacity: .5; }
 
 .carousel-btn {
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 100;
-}
+  z-index: 100; }
 
 .text-orange-dark,
 .text-orange-dark:link,
 .text-orange-dark:visited {
   color: #e9921e;
-  transition: color .2s;
-}
+  transition: color .2s; }
 
 a.text-orange-dark:hover {
-  color: #832b05;
-}
+  color: #832b05; }
 
 .navbar-brand-logo {
-  width: 41px;
-}
+  width: 41px; }
 
 .row-content {
   padding: 5rem 0;
-  border-bottom: 1px ridge;
-}
+  border-bottom: 1px ridge; }
 
 .footer {
   color: #f2f2f2;
-  background-color: #1d1c18;
-  padding: 1.5rem 0;
-}
+  padding: 1.5rem 0; }
 
 .link:link,
 .link:visited {
@@ -56,49 +44,35 @@ a.text-orange-dark:hover {
   color: #e9921e;
   background-color: #383b43;
   transition: all .2s;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .link:hover,
 .link:focus {
   color: #f2f2f2;
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .3);
-  transform: scale(1.1);
-}
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+  transform: scale(1.1); }
 
 .link:active {
   color: #e9921e;
   transform: scale(1.05);
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
-}
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.5); }
 
 .address {
-  font-size: .8rem;
-}
+  font-size: .8rem; }
 
 .social-media {
-  text-align: center;
-}
+  text-align: center; }
 
 .email-icon {
   color: #fefefe;
   border-radius: 4px;
   background-color: #a9329e;
-  transition: background-color .2s;
-}
-
-.email-icon:hover {
-  background-color: #5e32af;
-}
-
-.u-margin-v-small {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
+  transition: background-color .2s; }
+  .email-icon:hover {
+    background-color: #5e32af; }
 
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 1rem;
-}
+  padding: 1rem; }

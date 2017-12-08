@@ -1,0 +1,111 @@
+$text-shadow-light: 1px 1px 0 rgba(0, 0, 0, .3);
+$box-shadow-light: 0 1rem 1rem rgba(0, 0, 0, .3);
+
+$color-grey-light: #f2f2f2;
+$color-grey-dark: #383b43;
+$color-orange-light: #e9921e;
+$color-orange-dark: #832b05;
+
+$border-thin-light: 1px solid #ddd;
+
+.jumbotron {
+  color: $color-grey-light;
+  border-radius: 0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
+  padding-top: 6rem;
+}
+
+.carousel {
+
+  &-item {
+    height: 300px;
+    background-color: black;
+    font-size: 1.3rem;
+
+    & img {
+      opacity: .5;
+    }
+  }
+
+  &-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+}
+
+
+.text-orange-dark,
+.text-orange-dark:link,
+.text-orange-dark:visited {
+  color: $color-orange-light;
+  transition: color .2s;
+}
+
+a.text-orange-dark:hover {
+  color: $color-orange-dark;
+}
+
+.navbar-brand-logo {
+  width: 41px;
+}
+
+.row-content {
+  padding: 5rem 0;
+  border-bottom: 1px ridge;
+}
+
+.footer {
+  color: $color-grey-light;
+  padding: 1.5rem 0;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  padding: .5rem;
+  color: $color-orange-light;
+  background-color: $color-grey-dark;
+  transition: all .2s;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: $color-grey-light;
+  box-shadow: $box-shadow-light;
+  transform: scale(1.1);
+}
+
+.link:active {
+  color: $color-orange-light;
+  transform: scale(1.05);
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.address {
+  font-size: .8rem;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.email-icon {
+  color: #fefefe;
+  border-radius: 4px;
+  background-color: #a9329e;
+  transition: background-color .2s;
+
+  &:hover {
+    background-color: #5e32af;
+  }
+}
+
+.tab-content {
+  border-left: $border-thin-light;
+  border-right: $border-thin-light;
+  border-bottom: $border-thin-light;
+  padding: 1rem;
+}
