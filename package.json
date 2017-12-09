@@ -5,7 +5,7 @@
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/olbesp/conFusion.git"
+    "url": "https://github.com/olbesp/confusion.git"
   },
   "scripts": {
     "start": "npm run watch:all",
