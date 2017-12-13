@@ -29,7 +29,8 @@
           <li class="nav-item"><a href="contactus.html" class="nav-link"><i class="fa fa-address-card fa-2x" aria-hidden="true"></i> Contact</a></li>
         </ul>
         <span class="navbar-text">
-          <a href="#" data-toggle="modal" data-target="#loginModal">
+          <!-- LOGIN LINK -->
+          <a href="#" id="loginBtn">
             <span class="fa fa-sign-in"></span> Login
           </a>
         </span>
@@ -40,7 +41,7 @@
   <div class="modal fade" id="loginModal" role="dialog">
     <div class="modal-dialog" role="content">
       <div class="modal-content">
-        <div class="modal-header bg-info text-white">
+        <div class="modal-header">
           <h4 class="modal-title">Login</h4>
           <button type="button" class="close" data-dismiss="modal" name="button">
             &times;
@@ -64,7 +65,7 @@
             </div>
           </form>
         </div>
-        <div class="modal-footer bg-info text-white">
+        <div class="modal-footer">
           <button class="btn btn-default btn-sm" type="button" data-dismiss="modal">Cancel</button>
           <button class="btn btn-primary btn-sm" type="submit">Sign in</button>
         </div>
@@ -83,7 +84,8 @@
           <img src="img/logo.png" alt="Logo" class="img-fluid">
         </div>
         <div class="col col-sm-3 align-self-center">
-          <a data-toggle="modal" data-target="#reserveModal" class="btn btn-danger btn-sm btn-block">Reserve a Table</a>
+          <!-- RESERVE BUTTON -->
+          <button id="reserveBtn" class="btn btn-danger btn-sm btn-block">Reserve a Table</button>
         </div>
       </div>
     </div>
@@ -93,7 +95,7 @@
     <div class="modal-dialog" role="content">
       <div class="modal-content">
         <form action="">
-          <div class="modal-header bg-info text-white">
+          <div class="modal-header">
             <h4 class="modal-title">Reserve a Table</h4>
             <button type="button" class="close" data-dismiss="modal" name="button">
               &times;
@@ -170,7 +172,7 @@
               </div>
             </div>
           </div>
-          <div class="modal-footer bg-info text-white">
+          <div class="modal-footer">
             <button class="btn btn-default btn-sm" type="button" data-dismiss="modal">Cancel</button>
             <button class="btn btn-primary btn-sm" type="submit">Reserve</button>
           </div>

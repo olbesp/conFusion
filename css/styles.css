@@ -1,3 +1,15 @@
+.modal-header {
+  background-color: #383b43;
+  color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background-color: #f2f2f2; }
+
+.modal-footer {
+  background-color: #e9921e; }
+
 .jumbotron {
   color: #f2f2f2;
   border-radius: 0;

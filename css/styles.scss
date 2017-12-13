@@ -8,6 +8,31 @@ $color-orange-dark: #832b05;
 
 $border-thin-light: 1px solid #ddd;
 
+////////////////////////////////////
+// MODAL STYLES
+////////////////////////////////////
+.modal {
+
+  &-header {
+    background-color: $color-grey-dark;
+    color: floralwhite;
+
+    .close {
+      color: floralwhite;
+    }
+  }
+
+  &-body {
+    background-color: $color-grey-light;
+  }
+
+  &-footer {
+    background-color: $color-orange-light;
+  }
+}
+
+///////////////////////////////////
+
 .jumbotron {
   color: $color-grey-light;
   border-radius: 0;
